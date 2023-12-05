@@ -44,7 +44,7 @@ The chunks on LCE utilize a different format to Java's MCR Chunks, this is the h
 | UncompressedBuffer(Int) | 0x04 | Size of the buffer before RLE is performed(only occurs on PS3)
 | Format | 0x02 | chunk format version (0xC is aquatic)
 | X(Int) | 0x04 | chunk X coordinate
-| Y(Int) | 0x04 | chunk X coordinate
+| Y(Int) | 0x04 | chunk Y coordinate
 | LastUpdate | 0x08 | chunk Last-Updated Time
 | Inhabited  | 0x08 | chunk Inhabited Time(Only on chunk version 8 and higher)
 
